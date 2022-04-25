@@ -238,44 +238,6 @@
           </div>
         </div>
 
-        <!-- <div class="col-lg-4 col-md-6 col-12">
-          <div class="card mb-4 shadow-sm">
-            <img class="card-img-top" src="ressources/templates/animation.jpg" alt="Card image">
-            <div class="card-body">
-              <h4>Jeu du 421</h4>
-              <p class="card-text">Jeu de dés populaire réalisé avec le langage C++</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="text-dark" href="421.html">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">
-                      Voir le Projet
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="col-lg-4 col-md-6 col-12">
-          <div class="card mb-4 shadow-sm">
-            <img class="card-img-top" src="ressources/templates/animation.jpg" alt="Card image">
-            <div class="card-body">
-              <h4>Jeu du pendu</h4>
-              <p class="card-text">Jeu réalisé avec le langage C++ et le logiciel "Qt Creator"</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="text-dark" href="pendu.html">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">
-                      Voir le Projet
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
         <div class="col-lg-4 col-md-6 col-12">
           <div class="card mb-4 shadow-sm">
             <img class="card-img-top" src="ressources/classe_inversee/json.PNG" alt="Card image">
@@ -314,25 +276,6 @@
           </div>
         </div>
 
-        <!-- <div class="col-lg-4 col-md-6 col-12">
-          <div class="card mb-4 shadow-sm">
-            <img class="card-img-top" src="ressources/SiteMenu.png" alt="Card image">
-            <div class="card-body">
-              <h4>Form & BDD</h4>
-              <p class="card-text">Formulaire PHP permettant d'ajouter des input dans une base de données</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="text-dark" href="">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">
-                      Voir le Projet
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> !-->
-
       </div>
     </div>
   </div>
@@ -340,8 +283,8 @@
   <section class="text-white mb-0 About" id="about">
     <div class="container py-5">
       <h2 class="text-center text-uppercase text-white pb-3">À Propos</h2>
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 flex-column justify-content-center align-items-center">
           <p class="lead">Je m’appelle Antoine Gandelin, j’ai 19 ans et je suis actuellement étudiant en deuxième année
             de
             BTS SIO (Services Informatiques aux Organisations) Option SLAM (Solutions Logicielles et Applications
@@ -354,7 +297,7 @@
             encore des applications.
           </p>
         </div>
-        <div class="col-lg-4 mr-auto">
+        <div class="col-lg-4 flex-column justify-content-center align-items-center">
           <p class="lead">Je suis également titulaire d’un baccalauréat ES (Economique et Social) spécialité
             mathématiques obtenu avec la mention bien au Lycée Saint-Paul à Charleville-Mézières.
             <br><br>
@@ -370,7 +313,7 @@
           </p>
         </div>
       </div>
-      <div class="text-center mt-4">
+      <div style="display: flex; justify-content: center;">
         <a href="ressources/cv_antoine_gandelin.pdf" class="btn btn-xl btn-outline-light" target="_blank">
           Consulter mon CV
         </a>
@@ -379,7 +322,9 @@
           class="btn btn-xl btn-outline-light" target="_blank">
           Télécharger mon CV
         </a>
-        <br><br>
+      </div>
+      <br><br>
+      <div style="display: flex; justify-content: center;">
         <a class="btn btn-xl btn-outline-light" href="#contact">
           Contactez-moi
         </a>
@@ -443,7 +388,7 @@
           - Anglais<br>
           - Mathématiques pour l'informatique<br>
           - Algorithmie appliquée<br>
-          - Culture économique, juridique et managériale &nbsp;&nbsp; des services informatiques<br>
+          - Culture économique, juridique et managériale des services informatiques<br>
           - Enseignements de spécialité (SLAM ou SISR)<br>
           - Projets Personnels Encadrés (PPE)
         </p>
@@ -452,14 +397,15 @@
         <p class="text-justify">- Culture Générale & Expression<br>
           - Anglais<br>
           - Mathématiques pour l'informatique<br>
-          - Culture économique, juridique et managériale &nbsp;&nbsp; des services informatiques<br>
+          - Culture économique, juridique et managériale des services informatiques<br>
           - Enseignements de spécialité (SLAM ou SISR)<br>
           - Projets Personnels Encadrés (PPE)
         </p>
       </div>
 
-      <div class="text-center">
+      <div style="display: flex; justify-content: center;">
         <a href="http://www.sio-reims.fr" class="btn btn-lg btn-secondary" target="_blank">Site du BTS SIO</a>
+        &nbsp;
         <a href="ressources/presentation_bts_sio_reims.pdf" class="btn btn-lg btn-secondary"
           target="_blank">Présentation du BTS SIO</a>
       </div>
@@ -471,29 +417,31 @@
   <section class="text-white mb-0 Competences" id="competences">
     <div class="container py-5">
       <h2 class="text-center text-uppercase text-white pb-3">Compétences</h2>
-      <div class="row">
+      <div class="row d-flex justify-content-center">
         <div class="col-lg-4 m-auto">
-          <p class="lead" style="text-justify: auto;">Lors de ces deux années en BTS SIO, j'ai pu acquérir
+          <p style="text-align: justify;">Lors de ces deux années en BTS SIO, j'ai pu acquérir
             et développer de nombreuses connaissances et compétences dans le domaine informatique, du
             développement et de la programmation
             mais également au niveau de la cybersécurité.</p>
         </div>
         <div class="col-lg-4 m-auto">
-          <p class="lead" style="text-justify: auto;">Vous trouverez, en cliquant ci-dessous, le tableau de synthèse de
+          <p style="text-align: justify;">Vous trouverez, en cliquant ci-dessous, le tableau de
+            synthèse
+            de
             mes réalisations professionnelles
             afin de constituer mon portefeuille de compétences, regroupant tout ce que j'ai vu au cours de ma formation.
           </p>
         </div>
       </div>
-      <div class="col-lg-4 m-auto">
+      <div style="display: flex; justify-content: center;">
         <a class="btn btn-xl btn-outline-light" href="ressources/e4_synthese.pdf" target="_blank">
           Voir le tableau
         </a>
+        &nbsp;
         <a class="btn btn-xl btn-outline-light" href="ressources/competences.pdf" target="_blank">
           Voir les compétences
         </a>
       </div>
-    </div>
     </div>
   </section>
 
@@ -519,8 +467,9 @@
       </div>
     </div>
     <br><br>
-    <div class="col-lg-2 m-auto">
-      <a href="ressources/stage_presentation.pdf" class="btn btn-lg btn-secondary" target="_onblank">En savoir plus</a>
+    <div style="display: flex; justify-content: center;">
+      <a href="ressources/stage_presentation.pdf" class="btn btn-lg btn-secondary" target="_onblank">En savoir
+        plus</a>
     </div>
   </div>
 
@@ -530,13 +479,13 @@
       <div class="row">
         <p class="text-center ml-auto mr-auto">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
-            viewBox="0 0 16 16" type="button" 
+            viewBox="0 0 16 16"
             onclick="window.location.href='https://www.linkedin.com/in/antoine-gandelin-11a755209/'">
             <path
               d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
           </svg>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
-            viewBox="0 0 16 16" type="button" onclick="window.location.href='mailto:antoine.gandelin@gmail.com'">
+            viewBox="0 0 16 16" onclick="window.location.href='mailto:antoine.gandelin@gmail.com'">
             <path
               d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
