@@ -18,7 +18,6 @@ body {
 
 .navbar {
   border-bottom: 1px solid black;
-  background-image: linear-gradient(67.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%, rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%, rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%, rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%, rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%, rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%, rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%), linear-gradient(22.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%, rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%, rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%, rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%, rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%, rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%, rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%), linear-gradient(112.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%, rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%, rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%, rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%, rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%, rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%, rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%), linear-gradient(90deg, rgb(231, 231, 231), rgb(195, 195, 195));
   background-blend-mode: overlay, overlay, overlay, normal;
 }
 
@@ -93,4 +92,32 @@ body {
 .hr {
   width: 25%;
   border-top: 1px solid #8c8b8b;
+}
+
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .5;
+}
+
+.button {
+  position: absolute;
+  width: 350px;
+  top: 80px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  text-align: center;
+  z-index: 1;
+}
+
+.hover11:hover .button {
+  opacity: 1;
 }
